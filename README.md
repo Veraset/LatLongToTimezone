@@ -1,3 +1,9 @@
+# Veraset Fork
+Since this library is not available on Maven, this repo is a forked version to deploy to Veraset's CodeArtifact.
+To release new version:
+1. Update version in pom.xml
+2. Run `mvn deploy`
+
 # LatLongToTimezone
 Lat/long to timezone mapper in Java and Swift and C#. Does not require web services or data files. 
 

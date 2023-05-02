@@ -4,7 +4,7 @@
 
     <groupId>com.skedgo</groupId>
     <artifactId>LatLongToTimezone</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1-VERASET</version>
 
     
     <name>${project.groupId}:${project.artifactId}</name>
@@ -28,10 +28,11 @@
     </scm>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
+        <repository>
+            <id>codeartifact</id>
+            <name>codeartifact</name>
+            <url>https://veraset-845194021922.d.codeartifact.us-west-2.amazonaws.com/maven/veraset/</url>
+        </repository>
     </distributionManagement>
 
     <dependencies>
